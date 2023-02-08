@@ -23,9 +23,18 @@ header {
 .flexb {
     display:flex;
     justify-content: space-between;
+    flex-flow: row wrap;
 }
 
 .centered {
-    width: 1200px;
+    max-width: 1200px;
     margin:0 auto;
+}
+
+.card {
+    width: calc(100% / 3);
+}
+
+.card img {
+    width: 100%;
 }
