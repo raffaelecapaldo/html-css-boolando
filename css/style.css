@@ -4,3 +4,11 @@
     padding:0;
     box-sizing: border-box;
 }
+
+/* Color styles */
+:root {
+--headercolor: #FF6900;
+--ecocolor: #008000;
+--pricecolor: #FF0000;
+--maincolor: #1A1A1A;
+}
