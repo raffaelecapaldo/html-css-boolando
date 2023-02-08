@@ -116,6 +116,11 @@ header a {
     text-align: left;
 }
 
+.favourite:hover{
+    color:red;
+    cursor: pointer;
+}
+
 /* ITEM DESCRIPTION */
 .infoitem {
     line-height: 17px;
@@ -177,4 +182,8 @@ footer {
     padding-right: 5px;
     padding-top: 10px;
     font-size: 20px;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
