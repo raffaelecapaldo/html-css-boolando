@@ -28,19 +28,26 @@ header {
 }
 
 .centered {
+    min-width:1200px;
     max-width: 1200px;
     margin:0 auto;
 }
 
 /* CARDS */
 .card {
-    width: calc(100% / 3);
+    max-width: calc(100% / 3);
     position:relative;
 }
 
-.card img {
-    width: 100%;
+.imgitem {
+    max-width: 100%;
 }
+
+.card img {
+    max-width: 100%;
+}
+
+
 
 /* BADGES */
 .offer {
@@ -54,7 +61,7 @@ header {
 
 .badge {
     position:absolute;
-    top:400px;
+    top:510px;
     padding:5px 3px 5px 3px;
 
 }
