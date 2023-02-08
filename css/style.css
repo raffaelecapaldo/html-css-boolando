@@ -41,6 +41,10 @@ header a {
     align-items: center;
 }
 
+.utility i {
+    padding:2px;
+}
+
 .logo img {
     width: 172px;}
 
