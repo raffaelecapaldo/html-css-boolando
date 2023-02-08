@@ -20,6 +20,7 @@ header {
 
 }
 
+/* UTILITY */
 .flexb {
     display:flex;
     justify-content: space-between;
@@ -31,10 +32,30 @@ header {
     margin:0 auto;
 }
 
+/* CARDS */
 .card {
     width: calc(100% / 3);
+    position:relative;
 }
 
 .card img {
     width: 100%;
 }
+
+/* BADGES */
+.offer {
+    background-color:var(--pricecolor);
+    margin-left:90px;
+}
+
+.eco {
+    background-color: var(--ecocolor);
+}
+
+.badge {
+    position:absolute;
+    top:400px;
+    padding:5px 3px 5px 3px;
+
+}
+
