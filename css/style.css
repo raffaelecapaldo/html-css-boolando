@@ -12,3 +12,20 @@
 --pricecolor: #FF0000;
 --maincolor: #1A1A1A;
 }
+
+/* HEADER STYLE */
+
+header {
+    background-color: var(--headercolor);
+
+}
+
+.flexb {
+    display:flex;
+    justify-content: space-between;
+}
+
+.centered {
+    width: 1200px;
+    margin:0 auto;
+}
