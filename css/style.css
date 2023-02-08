@@ -24,8 +24,14 @@ header {
     padding: 10px;
     min-width: 1200px;
     box-shadow: 0 4px 2px -2px gray;
-    margin-bottom: 100px;
+    position:fixed;
+    z-index: 1000;
+    width: 100%;
 
+}
+
+main {
+    padding-top:100px;
 }
 
 header a {
