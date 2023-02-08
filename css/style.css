@@ -1,16 +1,16 @@
 /* RESET */
 * {
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
 /* Color styles */
 :root {
---headercolor: #FF6900;
---ecocolor: #008000;
---pricecolor: #FF0000;
---maincolor: #1A1A1A;
+    --headercolor: #FF6900;
+    --ecocolor: #008000;
+    --pricecolor: #FF0000;
+    --maincolor: #1A1A1A;
 }
 
 body {
@@ -21,52 +21,53 @@ body {
 
 header {
     background-color: var(--headercolor);
-    padding:10px;
+    padding: 10px;
     min-width: 1200px;
     box-shadow: 0 4px 2px -2px gray;
-    margin-bottom:100px;
+    margin-bottom: 100px;
 
 }
 
 header a {
-    color:white;
+    color: white;
     text-decoration: none;
-    font-size:15px;
+    font-size: 15px;
     font-weight: bold;
 }
 
 .headerposition {
-    margin:0 auto;
+    margin: 0 auto;
     max-width: 1200px;
     align-items: center;
 }
 
 .utility i {
-    padding:2px;
+    padding: 2px;
 }
 
 .logo img {
-    width: 172px;}
+    width: 172px;
+}
 
 /* UTILITY */
 .flexb {
-    display:flex;
+    display: flex;
     justify-content: space-between;
     flex-flow: row wrap;
 }
 
 .centered {
-    min-width:1200px;
+    min-width: 1200px;
     max-width: 1200px;
-    margin:0 auto;
+    margin: 0 auto;
 }
 
 
 /* CARDS */
 .card {
     max-width: calc(100% / 3);
-    position:relative;
-    padding:10px;
+    position: relative;
+    padding: 10px;
 }
 
 .imgitem {
@@ -81,24 +82,24 @@ header a {
 
 /* BADGES */
 .offer {
-    background-color:var(--pricecolor);
+    background-color: var(--pricecolor);
 }
 
 .eco {
     background-color: var(--ecocolor);
-    left:65px;
+    left: 65px;
 }
 
 #lasteco {
-    left:10px;
+    left: 10px;
 }
 
 .badge {
-    position:absolute;
-    top:510px;
-    padding:8px;
-    color:white;
-    font-size:14px;
+    position: absolute;
+    top: 510px;
+    padding: 8px;
+    color: white;
+    font-size: 14px;
     font-weight: bold;
 
 }
@@ -106,31 +107,73 @@ header a {
 /* FAVOURITE BUTTON */
 .favourite {
     background-color: white;
-    padding:0px 15px 0px 15px;
-    color:var(--maincolor);
-    position:absolute;
-    top:20px;
-    right:0px;
-    font-size:30px;
+    padding: 0px 15px 0px 15px;
+    color: var(--maincolor);
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    font-size: 30px;
     text-align: left;
 }
 
- /* ITEM DESCRIPTION */
+/* ITEM DESCRIPTION */
 .infoitem {
     line-height: 17px;
 }
+
 .infoitem p {
-    font-size:14px;
+    font-size: 14px;
 }
 
-.infoitem p:last-child{
-    color:red;
+.infoitem p:last-child {
+    color: red;
     font-weight: bold;
 }
 
-.infoitem p span{
-    color:grey;
+.infoitem p span {
+    color: grey;
     text-decoration: line-through;
     font-weight: 300;
-    padding-left:5px;
+    padding-left: 5px;
+}
+
+/* FOOTER STYLE */
+
+footer {
+    background-color: var(--maincolor);
+    color: white;
+    margin-top: 45px;
+}
+
+.boolandoinfo {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 15px;
+    padding-bottom: 20px;
+
+}
+
+.boolandoinfo h5 {
+    font-size: 20px;
+}
+
+.legalpages a {
+    font-size: 13px;
+    padding-right: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.socialitem p {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.socialitem i {
+    padding-right: 5px;
+    padding-top: 10px;
+    font-size: 20px;
 }
