@@ -71,13 +71,65 @@ header a {
 }
 
 .imgitem {
-    max-width: 100%;
+    position: relative;
+    width: 380px;
+    height: 553.63px;
+    background-size: cover;
 }
 
 .card img {
     max-width: 100%;
 }
 
+/* CARDS CHANGING IMAGES ON HOVER */
+
+#one {
+    background-image: url("../img/1.webp");
+}
+
+#two {
+    background-image: url("../img/2.webp");
+}
+
+#three {
+    background-image: url("../img/3.webp");
+}
+
+#four {
+    background-image: url("../img/4.webp");
+}
+
+#five {
+    background-image: url("../img/5.webp");
+}
+
+#six {
+    background-image: url("../img/6.webp");
+}
+
+#one:hover {
+    background-image: url("../img/1b.webp");
+}
+
+#two:hover {
+    background-image: url("../img/2b.webp");
+}
+
+#three:hover {
+    background-image: url("../img/3b.webp");
+}
+
+#four:hover {
+    background-image: url("../img/4b.webp");
+}
+
+#five:hover {
+    background-image: url("../img/5b.webp");
+}
+
+#six:hover {
+    background-image: url("../img/6b.webp");
+}
 
 
 /* BADGES */
@@ -96,7 +148,7 @@ header a {
 
 .badge {
     position: absolute;
-    top: 510px;
+    top: 475px;
     padding: 8px;
     color: white;
     font-size: 14px;
@@ -116,8 +168,8 @@ header a {
     text-align: left;
 }
 
-.favourite:hover{
-    color:red;
+.favourite:hover {
+    color: red;
     cursor: pointer;
 }
 
