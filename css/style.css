@@ -66,6 +66,7 @@ header a {
 .card {
     max-width: calc(100% / 3);
     position:relative;
+    padding:10px;
 }
 
 .imgitem {
@@ -81,17 +82,55 @@ header a {
 /* BADGES */
 .offer {
     background-color:var(--pricecolor);
-    margin-left:90px;
 }
 
 .eco {
     background-color: var(--ecocolor);
+    left:65px;
+}
+
+#lasteco {
+    left:10px;
 }
 
 .badge {
     position:absolute;
     top:510px;
-    padding:5px 3px 5px 3px;
+    padding:8px;
+    color:white;
+    font-size:14px;
+    font-weight: bold;
 
 }
 
+/* FAVOURITE BUTTON */
+.favourite {
+    background-color: white;
+    padding:0px 15px 0px 15px;
+    color:var(--maincolor);
+    position:absolute;
+    top:20px;
+    right:0px;
+    font-size:30px;
+    text-align: left;
+}
+
+ /* ITEM DESCRIPTION */
+.infoitem {
+    line-height: 17px;
+}
+.infoitem p {
+    font-size:14px;
+}
+
+.infoitem p:last-child{
+    color:red;
+    font-weight: bold;
+}
+
+.infoitem p span{
+    color:grey;
+    text-decoration: line-through;
+    font-weight: 300;
+    padding-left:5px;
+}
