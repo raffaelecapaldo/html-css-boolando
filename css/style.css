@@ -66,6 +66,10 @@ header a {
     margin: 0 auto;
 }
 
+.spbw {
+    justify-content:space-between;
+}
+
 
 /* CARDS */
 .card {
